@@ -1,3 +1,4 @@
+import AuthLayout from "@/components/layout/AuthLayout";
 import type { Metadata } from "next";
 import {Inter} from "next/font/google";
 
@@ -18,10 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <div>
+      <body className={inter.className} id="root">
+        <AuthLayout>
           {children}
-        </div>
+        </AuthLayout>
       </body>
     </html>
   );
