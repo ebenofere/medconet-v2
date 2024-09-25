@@ -1,11 +1,13 @@
 import { defineConfig } from "@pandacss/dev";
 
 export default defineConfig({
+  jsxFramework: 'react',
+
   // Whether to use css reset
   preflight: true,
 
   // Where to look for your css declarations
-  include: ["./src/**/*.{js,jsx,ts,tsx}", "./pages/**/*.{js,jsx,ts,tsx}"],
+  include: ["./src/components/**/*.{ts,tsx,js,jsx}", "./src/app/**/*.{ts,tsx,js,jsx}"],
 
   // Files to exclude
   exclude: [],

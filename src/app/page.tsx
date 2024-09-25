@@ -36,5 +36,3 @@ export default function Home() {
   )
 }
 
-
-{/* <div className={css({ fontSize: "2xl", fontWeight: 'bold', color:"#09A5DB" })}>Welcome to Medconet</div> */}

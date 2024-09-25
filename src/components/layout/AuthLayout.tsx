@@ -1,7 +1,7 @@
 import Navbar from "@/templates/homepage/dashboard/Navbar"
 
 
-const AuthLayout = () => {
+const AuthLayout = ({} : {children: React.ReactNode}) => {
   return (
     <div>
         <Navbar />

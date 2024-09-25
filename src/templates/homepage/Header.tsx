@@ -2,7 +2,7 @@
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div>templates homepage Header</div>
   )
 }
 

@@ -1,8 +1,13 @@
+import { Box } from "../../../../styled-system/jsx"
 
 
 export const Navbar = () => {
   return (
-    <div>Header</div>
+    <div>
+        <Box>
+          Hello
+        </Box>
+    </div>
   )
 }
 
