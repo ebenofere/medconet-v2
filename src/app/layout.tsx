@@ -1,8 +1,13 @@
 import AuthLayout from "@/components/layout/AuthLayout";
 import type { Metadata } from "next";
-import {Inter} from "next/font/google";
+import {Montserrat} from "next/font/google";
 
-const inter = Inter({subsets : ["latin"]});
+const montserrat = Montserrat({
+  display: "swap",
+  subsets:["latin"],
+  weight:["400", "500", "600", "700", "800"],
+  variable: "--font-montserrat",
+});
 
 export const metadata: Metadata = {
   title: "Medconet Africa",
@@ -19,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className} id="root">
+      <body className={montserrat.className} id="root">
         <AuthLayout>
           {children}
         </AuthLayout>
