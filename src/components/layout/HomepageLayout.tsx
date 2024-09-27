@@ -1,10 +1,10 @@
 import Navbar from "@/templates/homepage/dashboard/Navbar"
 
-interface IAuthLayout {
+interface IHomepageLayout {
     children: React.ReactNode
 }
 
-const AuthLayout = ({} : IAuthLayout) => {
+const HomepageLayout = ({} : IHomepageLayout) => {
   return (
     <div>
         <Navbar />
@@ -13,4 +13,4 @@ const AuthLayout = ({} : IAuthLayout) => {
   )
 }
 
-export default AuthLayout
+export default HomepageLayout

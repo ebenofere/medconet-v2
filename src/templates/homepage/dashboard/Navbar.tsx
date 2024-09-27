@@ -1,12 +1,16 @@
 import { Box } from "../../../../styled-system/jsx"
+import Search from "./Search"
 
 
 export const Navbar = () => {
   return (
     <div>
-        <Box>
-          Hello
-        </Box>
+        <div>
+          <Box>Medconet</Box>
+        </div>
+        <div>
+          <Search />
+        </div>
     </div>
   )
 }
